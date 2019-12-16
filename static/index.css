@@ -1,0 +1,218 @@
+/*
+    Copyright (C) 2019 OM SANTOSHKUMAR MASNE. All Rights Reserved.
+    Licensed under the GNU Affero General Public License v3.0 only (AGPL-3.0-only) license.
+    See License.txt in the project root for license information.
+*/
+
+body
+{
+    margin: 0;
+    width: 100%;
+}
+
+.navbar
+{
+    background: rgb(201, 116, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-right
+{
+    position: relative;
+    margin-right: 5%;
+}
+
+.brand-name > a
+{
+    text-decoration: none;
+}
+
+#account-manager
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#login
+{
+    margin-right: 5%;
+}
+
+.brand
+{
+    position: relative;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.brand-logo-container
+{
+    margin-left: 0;
+    display: inline;
+}
+
+#brand-logo
+{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.brand-name
+{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    /* float: right; */
+    margin-left: 10%;
+    line-height: 40px;
+}
+
+.page-front
+{
+    padding: 5%;
+    height: 500px;
+    color: rgb(24, 255, 55);
+    background: url(/images/dark-dj-turntable.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#headline
+{
+    font-family: Courier;
+    text-align: center;
+    font-size: 4rem;
+}
+
+#sub-title
+{
+    text-align: center;
+    font-family: monospace;
+    font-size: 3.5rem;
+}
+
+#bottom-container
+{
+    background: url(/images/krys-amon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.experience-music
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 15% 10% 15%;
+    color: white;
+    text-align: left;
+}
+
+#experience-main
+{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 2.8rem;
+}
+
+#experience-end
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8rem;
+    color: rgb(60, 255, 21);
+}
+
+.about
+{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    padding: 10% 15% 10% 15%;
+    text-align: left;
+}
+
+#about-title
+{
+    color: rgb(21, 255, 0);
+    font-size: 2.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#about-text
+{
+    color: rgb(247, 232, 25);
+    font-size: 1.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section-divider
+{
+    width: 100%;
+    height: 10px;
+    background: rgb(226, 43, 186);
+}
+
+#creator 
+{
+    color: #11ff88;
+    font-weight: bold;
+    z-index: 80;
+}
+
+.footer
+{
+    position: relative;
+    z-index: 80;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: grey;
+    text-align: center;
+    padding: 5%;
+    font-size: 1.8rem;
+}
+
+@media(max-width:600px)
+{
+    .experience-music
+    {
+        padding: 10% 4% 10% 4%;
+    }
+
+    #experience-main
+    {
+        font-size: 2rem;
+    }
+
+    #experience-end
+    {
+        font-size: 1.2rem;
+    }
+
+    .about
+    {
+        padding: 10% 4% 10% 4%;
+    }
+
+    #about-title
+    {
+        font-size: 2rem;
+    }
+
+    #about-text
+    {
+        font-size: 1.2rem;
+    }
+    
+    .footer
+    {
+        padding: 0;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 1.2rem;
+    }
+}

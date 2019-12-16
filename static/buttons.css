@@ -1,0 +1,156 @@
+/*
+    Copyright (C) 2019 OM SANTOSHKUMAR MASNE. All Rights Reserved.
+    Licensed under the GNU Affero General Public License v3.0 only (AGPL-3.0-only) license.
+    See License.txt in the project root for license information.
+*/
+
+@keyframes highlight
+{
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(15deg) scale(1.2);
+    }
+    50% {
+        transform: rotate(-15deg) scale(1.4);
+    }
+    75% {
+        transform: rotate(0deg) scale(1);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.btn
+{
+    cursor: pointer;
+}
+
+#login-btn, #signup-btn
+{
+    color: white;
+    background: transparent;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+#login-btn:hover, #signup-btn:hover
+{
+    color: black;
+    background: white;
+}
+
+#scroll-to-top-btn
+{
+    cursor: pointer;
+    background: rgb(2, 139, 98);
+    color: white;
+    border-radius: 50%;
+    border: none;
+    padding: 5px;
+    width: 180%;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#scroll-to-top-btn:hover
+{
+    background: rgb(2, 77, 54);
+}
+
+#scroll-to-top-btn-container
+{
+    display: none;
+    position: fixed;
+    right: 8%;
+    bottom: 5%;
+    z-index: 50;
+}
+
+#know-more-btn
+{
+    background: blueviolet;
+    border-color: darkviolet;
+    border-width: 0.4rem;
+    border-radius: 2% 40%;
+    padding: 10%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#know-more-btn:hover
+{
+    background: rgb(77, 25, 126);
+}
+
+#experience-btn
+{
+    background: blueviolet;
+    border-color: darkviolet;
+    color: white;
+    border-width: 2px;
+    border-radius: 40px;
+    padding: 4%;
+    font-size: 2rem;
+    animation: highlight 3s infinite forwards;
+}
+
+#experience-btn:hover
+{
+    background: rgb(77, 25, 126);
+    transform: scale(1.2);
+}
+
+#about-btn
+{
+    background: hotpink;
+    border-color: white;
+    border-radius: 40px;
+    border-width: 2px;
+    color: white;
+    font-size: 2rem;
+    padding: 10%;
+}
+
+#about-btn:hover
+{
+    background: rgb(182, 27, 104);
+    transform: scale(1.2);
+}
+
+@media(max-width:600px)
+{
+    #know-more-btn
+    {
+        border-width: 0.2rem;
+        border-radius: 2% 40%;
+        padding: 5%;
+        font-size: 1rem;
+    }
+
+    #experience-btn
+    {
+        border-width: 2px;
+        border-radius: 40px;
+        padding: 4%;
+        font-size: 1.2rem;
+        margin-right: 20px;
+    }
+
+    #about-btn
+    {
+        border-radius: 40px;
+        border-width: 2px;
+        font-size: 1.2rem;
+        padding: 10%;
+    }
+
+    #scroll-to-top-btn
+    {
+        padding: 5px;
+        width: 180%;
+        font-size: 2rem;
+    }
+}

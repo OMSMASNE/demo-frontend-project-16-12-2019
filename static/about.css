@@ -1,0 +1,54 @@
+/*
+    Copyright (C) 2019 OM SANTOSHKUMAR MASNE. All Rights Reserved.
+    Licensed under the GNU Affero General Public License v3.0 only (AGPL-3.0-only) license.
+    See License.txt in the project root for license information.
+*/
+
+body
+{
+    text-align: center;
+    background: grey;
+}
+
+#abc
+{
+    font-size: 50px;
+    color: cyan;
+}
+
+#starting
+{
+    color: #11ff88;
+    text-align: center;
+}
+
+#creator 
+{
+    color: #11ff88;
+    font-weight: bold;
+}
+
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: grey;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5%;
+    font-size: 1.8rem;
+}
+
+@media(max-width:600px)
+{
+    .footer
+    {
+        padding: 0;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 1.2rem;
+    }
+}
